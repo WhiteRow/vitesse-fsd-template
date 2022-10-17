@@ -1,0 +1,20 @@
+@import './markdown.scss';
+
+html {
+  @apply font-sans;
+}
+
+html,
+body,
+#app {
+  @apply h-full m-0 p-0;
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  @apply fixed z-1031 top-0 left-0 w-full h-2px opacity-75;
+  background: rgb(13,148,136);
+}
